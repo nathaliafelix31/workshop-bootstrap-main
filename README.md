@@ -1,5 +1,5 @@
 # workshop-bootstrap-main
-<h3>Este é um portifólio simples feito em HTML CSS e Bootstrap.</h3>
+<h3>Este é um portfólio simples feito em HTML CSS e Bootstrap.</h3>
 <h3>Este projeto foi feito para a atividade do Workshop "Front-end rápido e fácil com o bootstrap"</h3>
 <h3>Resultado final</h3>
 <span align="center">
