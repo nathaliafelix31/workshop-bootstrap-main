@@ -59,6 +59,7 @@ img {
 .card {
     float: left;
     margin: 15px;
+    height: 15rem;
 }
 
 .card img{
