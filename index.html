@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+    
+  </head>
+  <body>
+
+    <header>
+      <div class="container"> 
+        <p>🌸<img id="logo" alt="logo" width="110" height="40" src="./images/nathalia.png" class="not-lazy">🌸</p>
+      </div>
+    </header>
+
+    
+    
+    <section class="container">
+
+      <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+         
+          
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img src="./images/1.jpg" alt="image 1">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/2.png" alt="image 2">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/3.jpg" alt="image 3">
+          </div>
+        
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        
+         
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <h1>Nathália Félix</h1>
+          <h6>Técnica em Informática 💻</h6>
+          <p>Olá, me chamo Nathália Félix, tenho 23 anos, sou de Itacarambi - MG. Me formei como técnica em informática
+            no IFNMG- Januária e nesse mesmo campus faço faculdade de Análise e Desenvolvimento de Sistemas.
+            Procuro sempre me aprimorar com novos desafios e melhorar os meus conhecimentos. 
+            Sou iniciante em desenvolvimento web, atualmente me especializando na linguagem Java utilizando o Spring Boot.
+            </p>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <img src="./images/4.jpg" alt="image Nathalia">
+        </div>
+      </div>
+
+      <h2>Habilidades ⚙</h2>
+      <h6>No momento, não possuo experiência profissional</h6>
+      <h6>Apenas faço projetos pessoais para meu aprendizado.</h6>
+      <div class="row">
+        <div class="col">
+          
+          <div class="card" style="width: 18rem;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" class="card-img-top" alt="image Spring">
+            <div class="card-body">
+              <h5 class="card-title">Java e Spring Boot</h5>
+              <p class="card-text">No presente momento estou desenvolvendo meu TCC com base no Java e Spring</p>
+              
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yii/yii-original-wordmark.svg" class="card-img-top" alt="image Yii2">
+            <div class="card-body">
+              <h5 class="card-title">PHP e FrameWork Yii2</h5>
+              <p class="card-text">Estou fazendo um curso FIC ofertado pelo IFNMG - Januária </p>
+              
+            </div>
+          </div>
+
+          
+          
+        </div>
+      </div>
+
+      <h2>Formação 👩‍🎓</h2>
+      <div class="row">
+        <div class="col">
+          <div class="accordion" id="meuacordeon">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Técnico em Informática 💻
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#meuacordeon">
+                <div class="accordion-body">
+                  <p>Possíveis áreas de trabalho:
+                    Operação e manutenção de computadores, gestão e desenvolvimento tecnológico e programação web</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne"> 
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                  Cursando Tecnologia em Análise e Desenvolvimento de Sistemas 💻📚
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#meuacordeon">
+                <div class="accordion-body">
+                  <p>Possíveis áreas de trabalho: Na gerência de sistemas de informação de empresas privadas ou públicas;
+                    Na pesquisa de novas tecnologias;
+                    No desenvolvimento de modelos estruturais de redes, em projetos lógicos ou físicos;
+                    Na análise, desenvolvimento e implantação de sistemas de controle;
+                    Na implantação de servidores, analisando sistemas operacionais pela sua especificação e
+                    funcionalidade;
+                    Na administração de banco de dados;
+                    No desenvolvimento de sistemas aplicativos para WEB;
+                    Na realização de consultoria / auditoria na área de Tecnologia da Informação; </p>
+                  
+                </div>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <footer>
+      <p class="text-center">&copy; 2021 - Desenvolvido por Nathália 💚💻</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script>
+      console.log('hello world')
+    </script>
+  </body>
+</html>
