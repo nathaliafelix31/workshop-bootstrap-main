@@ -70,3 +70,11 @@ img {
     margin-right: auto
     
 }
+.photo{
+    border: 1px solid #52054b;
+    border-radius: 50px ; 
+    height: 100px;
+    width: 100px;
+     
+}
+
